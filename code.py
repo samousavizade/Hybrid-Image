@@ -178,6 +178,7 @@ def main():
 
     pp.imsave(zoom_in_file_name, zoom_in)
     pp.imsave(zoom_out_file_name, zoom_out)
+    pp.imsave('output/result.jpg', hybrid_image)
 
 
 if __name__ == '__main__':
